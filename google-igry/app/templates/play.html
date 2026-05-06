@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="game_window">
+<h2>{{ game.title }}</h2>
+
+<iframe
+    src="/static/uploads/games/{{ game.folder }}/index.html"
+    width="900"
+    height="600">
+</iframe>
+<div>
+{% endblock %}
