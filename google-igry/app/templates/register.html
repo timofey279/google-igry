@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="form-container">
+    <h2>Регистрация</h2>
+
+    <form method="post">
+        <input type="email" name="email" placeholder="Почта" required>
+        <input type="text" name="tag" placeholder="Тег (логин)" required>
+        <input type="text" name="username" placeholder="Имя пользователя" required>
+
+        <input type="password" name="password" placeholder="Пароль" required>
+        <input type="password" name="confirm" placeholder="Подтверждение пароля" required>
+
+        <button type="submit">Создать аккаунт</button>
+    </form>
+
+    <div class="form-switch">
+        Уже есть аккаунт? <a href="/login">Вход</a>
+    </div>
+</div>
+
+{% endblock %}

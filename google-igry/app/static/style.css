@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+.nav-left a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav-right a {
+    text-decoration: none;
+}
+
+.btn-login {
+    padding: 8px 14px;
+    border-radius: 6px;
+    background-color: #3a86ff;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #265df2;
+}
+
+.container {
+    padding: 30px;
+}
+
+.game-card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+button {
+    background-color: #3a86ff;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #265df2;
+}
+
+input {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+.form-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #333;
+}
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-container input {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.form-container button {
+    width: 100%;
+    margin-top: 10px;
+}
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light-theme .navbar {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ccc;
+}
+
+.light-theme .game-card,
+.light-theme .form-container,
+.light-theme .game_window{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.light-theme input {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+.form-switch {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-switch a {
+    color: #3a86ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-switch a:hover {
+    text-decoration: underline;
+}
+
+a, button {
+    transition: 0.2s;
+}
+
+a {
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+a.btn {
+    background-color: #3a86ff;
+    color: white;
+}
+
+a.btn:hover {
+    background-color: #265df2;
+}
+
+.nav-left a {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #3a86ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.nav-left a:hover {
+    background-color: #265df2;
+}
+.flash-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.flash {
+    padding: 10px 15px;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.flash.error {
+    background-color: #e63946;
+}
+.nav-right a {
+    background-color: #3a86ff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: 0.2s;
+}
+
+.game-card a {
+    background-color: #3a86ff;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: 0.2s;
+}
+.nav-right a:hover {
+    background-color: #265df2;
+}
+.theme-btn {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 16px;
+    transition: 0.2s;
+    background-color: #ddd;
+    color: black;
+}
+
+.light-theme .theme-btn {
+    background-color: #444;
+    color: white;
+}
+
+.theme-btn:hover {
+    background-color: #666;
+}
+
